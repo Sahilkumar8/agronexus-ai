@@ -1,0 +1,38 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+ml-service/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Frontend build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploaded files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Generated ML models
+ml-service/trained_models/*.pkl
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
